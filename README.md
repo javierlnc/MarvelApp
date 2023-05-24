@@ -1,4 +1,4 @@
-# Prueba de desarrollo frontEnd
+# Prueba de desarrollo FrontEnd
 Este proyecto es creado de base al siguiente diseño [Figma](https://www.figma.com/file/zpbgMNsJKNyLWnchtMoC1Y/Prueba-Frontend?type=design&node-id=455-4710&t=0baN29Ih5v5HiNA6-0).
 
 ## Tecnoligias Utilisadas

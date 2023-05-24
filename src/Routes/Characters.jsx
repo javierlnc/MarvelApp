@@ -8,14 +8,17 @@ import {
   VideoContainer,
   CharactersContainer,
 } from "../Styles/Characters";
-import video from "../assets/videoplay.mp4"
+import video from "../assets/videoplay.mp4";
+import { Card } from "../Components/CardComponent";
+
+
 
 export default function Characters() {
   return (
     <Main>
       <MainContainer>
         <SesionMarvel>
-          <ProgressBar>
+          <ProgressBar> 
             <h2>PROGRESO DE PELICULAS PRODUCIDAS</h2>
           </ProgressBar>
           <VideoContainer>
@@ -24,7 +27,10 @@ export default function Characters() {
           <ImagenContainer>
           </ImagenContainer>
         </SesionMarvel>
-        <CharactersContainer></CharactersContainer>
+        <CharactersContainer>
+          <Card></Card>
+
+        </CharactersContainer>
       </MainContainer>
     </Main>
   );
