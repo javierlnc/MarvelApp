@@ -7,9 +7,12 @@ import {
   NavbarExtendedContainer,
   NavbarLinkContainer,
   NavbarLink,
-  Logo
+  Logo,
+  Icon
 } from "../Styles/Navbar";
-import LogoImg from "../assets/MarvelLogo.png"
+import LogoImg from "../assets/MarvelLogo.png";
+import Notification from "../assets/Notificacion.png";
+import Configuration from "../assets/configuration.png";
 export default function Navbar() {
   return (
     <NavbarContainer>
@@ -21,7 +24,10 @@ export default function Navbar() {
             <NavbarLink to="/characters">PERSONAJES</NavbarLink>
           </NavbarLinkContainer>
         </LeftNavbar>
-        <RightNavbar></RightNavbar>
+        <RightNavbar>
+            <Icon src={Notification}></Icon>
+            <Icon src={Configuration}></Icon>
+        </RightNavbar>
       </NavbarInnerContainer>
       <NavbarExtendedContainer></NavbarExtendedContainer>
     </NavbarContainer>

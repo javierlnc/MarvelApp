@@ -1,7 +1,10 @@
 import React from 'react'
+import {Main} from "../Styles/Home";
 
 export default function Characters() {
   return (
-    <div>Characters</div>
+    <Main>
+    </Main>
+
   )
 }
