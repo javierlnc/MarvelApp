@@ -3,6 +3,8 @@ import Home from "./Routes/Home";
 import Characters from "./Routes/Characters";
 import Navbar from "./Components/Navbar";
 import "./App.css";
+
+
 function App() {
   return (
     <Router>

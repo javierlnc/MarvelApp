@@ -37,6 +37,7 @@ export const ImgCard = styled.div`
     border-image-slice:30;
     display: flex;
     justify-content: center;
+    align-items: center;
     img{
         border-radius:50%;
         object-fit: cover;
